@@ -1,7 +1,3 @@
-<!-- Here is the notice part -->
-
-
-
 <!doctype html>
 <html class="no-js" lang="zxx">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -128,27 +124,29 @@
 
                                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                                         <ul class="navbar-nav m-auto">
-                                            <li class="nav-item   menuzero-li">
+                                            <li class="nav-item  active menuzero-li">
                                                 <a class="nav-link menuzero-a" href="index.html">
                                                     HOME
                                                 </a>
                                             </li>
+                                            <!-- NOTE create about us page -->
                                             <li class="nav-item ">
                                                 <a class="nav-link " href="about-us.html">ABOUT-US</a>
-
+                                            </li>
+                                            <!-- NOTE create membership page -->
                                             <li class="nav-item ">
                                                 <a class="nav-link " href="membership.html">
                                                     MEMBERSHIP
                                                 </a>
                                             </li>
-                                            <li class="nav-item active ">
+                                            <li class="nav-item ">
                                                 <a class="nav-link " href="notices.html">
                                                     NOTICE
                                                 </a>
                                             </li>
 
                                             <li class="nav-item ">
-                                                <a class="nav-link " href="videos.html">VIDEOS</a>
+                                                <a class="nav-link " href="videos.html">GALLERY</a>
                                             </li>
 
                                             <li class="nav-item ">
@@ -157,7 +155,7 @@
                                                 </a>
                                             </li>
                                             <li class="nav-item ">
-                                                <a href="registration.html">REGISTER</a>
+                                                <a href="registration.html">SIGN-UP</a>
                                             </li>
                                         </ul>
                                         <li class="nav-item ">
@@ -211,78 +209,99 @@
 
             <div class="content-wrapper">
                 <div class="">
+
                     <section id="up-event" class="page-events-b text-center">
                         <div class="common-page-overlay"></div>
                         <div class="container common-container">
                             <div class="page-notices-text">
                                 <h3 class="text-white">
-                                    Notices-List
+                                    Ask-Question
                                 </h3>
                             </div>
                         </div>
                     </section>
 
+                    <section id="ligin">
 
-                    <section id="#notice-list">
                         <div class="container">
-                            <div class="row">
-                                <div class="col-md-6 mb-3 wow animate__fadeInUp" data-wow-duration="1.5s">
-                                    <div class="list-notice-con">
-                                        <div class="notice-heading pb-3">
-                                            <h3><span>N</span>otice</h3>
-                                        </div>
-                                        <div class="notice-body">
-                                            <a href="notice-details/1.html">
-                                                <h4 class="mb-3">What is Lorem Ipsum?</h4>
-                                            </a>
-                                            <div style="height: 70px;text-overflow: ellipsis;color:white">
-                                                Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum
-                                                has been the industry&#39;s standard dummy text ever since the 1500s,
-                                                when an unknown
-                                                printer took a galley of type and scrambled it to ma
-                                            </div>
-                                        </div>
 
-                                        <div class="notice-date d-flex  mt-3">
-                                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                                            <h4><span>27</span> Nov</h4>
-                                            <div class="notice_year">
-                                                <h4>2020</h4>
-                                            </div>
+                            <!-- /.row -->
+                            <div class="row health-container">
+                                <div class="col-md-8 mb-3 wow animate__fadeInUp" data-wow-duration="1.5s">
+                                    <div class="card">
+                                        <div class="card-header askq-heading">
+                                            <h3 class="card-title text-white">Ask questions </h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <form action="#" method="post">
+                                                <input type="hidden" name="_token"
+                                                    value="bRM5jGd428XVpo9McDIxdX6Gdf7DiF1Uzj4XLUfd">
+                                                <div class="form-group">
+                                                    <label>Write your question </label>
+                                                    <!-- <input type="text" name="title" class="form-control" data-provide="typeahead"> -->
+                                                    <textarea class="form-control" name="title" required></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Details (if any):</label>
+                                                    <textarea class="form-control" name="description"
+                                                        required></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Topics (select at least one)</label>
+                                                    <select class="form-control" name="category" required>
+                                                    </select>
+                                                </div>
+
+
+
+
+
+
+                                                <div class="form-group">
+                                                    <label>Email</label>
+                                                    <input type="text" name="subscribe_email" class="form-control"
+                                                        placeholder="To receive the reply in the e-mail, type the e-mail"
+                                                        required>
+                                                </div>
+                                                <button class="btn a-q-button">Ask</button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 mb-3 wow animate__fadeInUp" data-wow-duration="1.5s">
-                                    <div class="list-notice-con">
-                                        <div class="notice-heading pb-3">
-                                            <h3><span>N</span>otice</h3>
+                                <div class="col-md-4 wow animate__fadeInUp" data-wow-duration="1.5s">
+                                    <div class="card">
+                                        <div class="card-header askq-heading">
+                                            <h3 class="card-title text-white">Search</h3>
                                         </div>
-                                        <div class="notice-body">
-                                            <a href="notice-details/2.html">
-                                                <h4 class="mb-3">Notice for corona</h4>
-                                            </a>
-                                            <div style="height: 70px;text-overflow: ellipsis;color:white">
-                                                Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum
-                                                has been the industry&#39;s standard dummy text ever since the 1500s,
-                                                when an unknown
-                                                printer took a galley of type and scrambled it to ma
-                                            </div>
-                                        </div>
+                                        <div class="card-body">
+                                            <form action="http://localhost/biiaas2/front/public/search" method="get">
+                                                <div class="form-group">
+                                                    <input type="text" name="keyword" class="form-control"
+                                                        placeholder="What to look for">
+                                                </div>
+                                                <div class="form-group">
+                                                    <select class="form-control" name="search_criteria">
+                                                        <option value="blog">Blog</option>
+                                                        <option value="question">Question</option>
+                                                        <option value="video">Video </option>
+                                                    </select>
+                                                </div>
+                                                <button class="btn a-q-button btn-sm" style="width: 100%;"> Search
+                                                </button>
+                                            </form>
 
-                                        <div class="notice-date d-flex  mt-3">
-                                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                                            <h4><span>27</span> Nov</h4>
-                                            <div class="notice_year">
-                                                <h4>2020</h4>
-                                            </div>
                                         </div>
                                     </div>
+
+
+
                                 </div>
+
+
                             </div>
                         </div>
                     </section>
+
 
                 </div>
             </div>
@@ -290,6 +309,7 @@
 
 
             <!-- Here is Footer part Start -->
+
 
 
 

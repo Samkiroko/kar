@@ -1,7 +1,3 @@
-<!-- Here is the notice part -->
-
-
-
 <!doctype html>
 <html class="no-js" lang="zxx">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -13,7 +9,6 @@
         Radiologists,Radiologists in kenya,KAR">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Kenya Association Of Radiologists</title>
-
 
 
     <link rel="shortcut icon" href="./frontAssets/image/favico.ico" type="image/x-icon">
@@ -44,7 +39,7 @@
     <link rel="stylesheet" href="AdminLTE/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.standalone.min.css" />
-    <!--Datatable CSS-->
+    <!--Data table CSS-->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.5/css/responsive.dataTables.min.css">
     <link href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css" rel="stylesheet"
@@ -128,20 +123,20 @@
 
                                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                                         <ul class="navbar-nav m-auto">
-                                            <li class="nav-item   menuzero-li">
+                                            <li class="nav-item  active menuzero-li">
                                                 <a class="nav-link menuzero-a" href="index.html">
                                                     HOME
                                                 </a>
                                             </li>
                                             <li class="nav-item ">
                                                 <a class="nav-link " href="about-us.html">ABOUT-US</a>
-
+                                            </li>
                                             <li class="nav-item ">
                                                 <a class="nav-link " href="membership.html">
                                                     MEMBERSHIP
                                                 </a>
                                             </li>
-                                            <li class="nav-item active ">
+                                            <li class="nav-item ">
                                                 <a class="nav-link " href="notices.html">
                                                     NOTICE
                                                 </a>
@@ -197,7 +192,6 @@
 
                 </div>
             </header>
-
             <!-- Tab panes -->
 
 
@@ -211,78 +205,325 @@
 
             <div class="content-wrapper">
                 <div class="">
+
                     <section id="up-event" class="page-events-b text-center">
                         <div class="common-page-overlay"></div>
                         <div class="container common-container">
                             <div class="page-notices-text">
                                 <h3 class="text-white">
-                                    Notices-List
+                                    Register
                                 </h3>
                             </div>
                         </div>
                     </section>
 
 
-                    <section id="#notice-list">
+
+                    <section id="signup">
                         <div class="container">
+
+
+
+
                             <div class="row">
-                                <div class="col-md-6 mb-3 wow animate__fadeInUp" data-wow-duration="1.5s">
-                                    <div class="list-notice-con">
-                                        <div class="notice-heading pb-3">
-                                            <h3><span>N</span>otice</h3>
-                                        </div>
-                                        <div class="notice-body">
-                                            <a href="notice-details/1.html">
-                                                <h4 class="mb-3">What is Lorem Ipsum?</h4>
-                                            </a>
-                                            <div style="height: 70px;text-overflow: ellipsis;color:white">
-                                                Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum
-                                                has been the industry&#39;s standard dummy text ever since the 1500s,
-                                                when an unknown
-                                                printer took a galley of type and scrambled it to ma
-                                            </div>
-                                        </div>
+                                <div class="col-md-12 wow animate__fadeInUp" data-wow-duration="1.5s">
 
-                                        <div class="notice-date d-flex  mt-3">
-                                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                                            <h4><span>27</span> Nov</h4>
-                                            <div class="notice_year">
-                                                <h4>2020</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-3 wow animate__fadeInUp" data-wow-duration="1.5s">
-                                    <div class="list-notice-con">
-                                        <div class="notice-heading pb-3">
-                                            <h3><span>N</span>otice</h3>
-                                        </div>
-                                        <div class="notice-body">
-                                            <a href="notice-details/2.html">
-                                                <h4 class="mb-3">Notice for corona</h4>
-                                            </a>
-                                            <div style="height: 70px;text-overflow: ellipsis;color:white">
-                                                Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum
-                                                has been the industry&#39;s standard dummy text ever since the 1500s,
-                                                when an unknown
-                                                printer took a galley of type and scrambled it to ma
-                                            </div>
-                                        </div>
+                                    <!--      Wizard container        -->
+                                    <div class="sign-from wizard-container">
+                                        <div class="card panel wizard-card p-3" data-color="navyblue"
+                                            id="wizardProfile">
+                                            <form action="https://kar.lytxcode.com/registration" class="register-form "
+                                                id="registration_form" method="post" enctype="multipart/form-data"
+                                                novalidate="novalidate">
+                                                <input type="hidden" name="_token"
+                                                    value="bRM5jGd428XVpo9McDIxdX6Gdf7DiF1Uzj4XLUfd">
+                                                <!--        You can switch " data-color="orange" "  with one of the next bright colors: "blue", "green", "orange", "red", "azure"          -->
 
-                                        <div class="notice-date d-flex  mt-3">
-                                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                                            <h4><span>27</span> Nov</h4>
-                                            <div class="notice_year">
-                                                <h4>2020</h4>
-                                            </div>
+                                                <div class="singup-heading text-center">
+                                                    <h3 class="wizard-title mb-2">Please Provide Your Correct
+                                                        Information</h3>
+                                                    <p class="category mb-4">We Will Reach You Very Soon. You Will
+                                                        Receive A Confirmation
+                                                        Email After Our Verification.</p>
+                                                </div>
+
+                                                <div class="wizard-navigation mb-5">
+                                                    <div class="progress-with-circle">
+                                                        <div class="progress-bar" role="progressbar"></div>
+                                                    </div>
+                                                    <ul class="nav nav-pills">
+                                                        <li class="li-user">
+                                                            <a href="#about" class="active" data-toggle="tab"
+                                                                aria-expanded="true">
+                                                                <div class="icon-circle icon-checked">
+                                                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                                                </div>
+                                                                About
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#account" data-toggle="tab">
+                                                                <div class="icon-circle">
+                                                                    <i class="fa fa-cog" aria-hidden="true"></i>
+                                                                </div>
+                                                                Education
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#address" data-toggle="tab">
+                                                                <div class="icon-circle">
+                                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                                </div>
+                                                                Work
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="tab-content">
+                                                    <div class="tab-pane active" id="about">
+                                                        <div class="row">
+                                                            <h5 class="info-text"></h5>
+                                                            <div class="col-md-5">
+                                                                <div class="picture-container text-center">
+                                                                    <div class="sin-up-picture">
+                                                                        <img src="default-avatar.jpg"
+                                                                            class="img-fluid imghover rounded-circle mb-3"
+                                                                            id="wizardPicturePreview" width="250"
+                                                                            height="236">
+                                                                        <input name="propic" id="wizard-picture"
+                                                                            type="file" accept="image/*">
+                                                                    </div>
+                                                                    <h6 class="">Choose Picture</h6>
+                                                                    <label id="wizard-picture-error" class="error"
+                                                                        for="wizard-picture" style="display: none;">This
+                                                                        field is required.</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-7">
+                                                                <div class="row">
+                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                        <div class="form-group sin-up-from-group">
+                                                                            <label>I am</label>
+                                                                            <select class="form-control" name="title">
+                                                                                <option value="Mr.">Mr.</option>
+                                                                                <option value="Mrs.">Mrs.</option>
+                                                                                <option value="Miss">Miss</option>
+                                                                                <option value="Dr.">Dr.</option>
+                                                                                <option value="Ms.">Ms</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                        <div class="form-group sin-up-from-group">
+                                                                            <label>Gender
+                                                                                <small></small>
+                                                                            </label>
+                                                                            <select class="form-control" name="gender">
+                                                                                <option value="Male">Male</option>
+                                                                                <option value="Female">Female</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                        <div class="form-group sin-up-from-group">
+                                                                            <label>Email
+                                                                                <small>*</small>
+                                                                            </label>
+                                                                            <input type="email" name="email"
+                                                                                class="form-control" required
+                                                                                data-provide="typeahead"
+                                                                                placeholder="e.g: someone@gmail.com">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                        <div class="form-group sin-up-from-group">
+                                                                            <label>First Name
+                                                                                <small>*</small>
+                                                                            </label>
+                                                                            <input class="form-control" name="firstName"
+                                                                                id="firstName" type="text"
+                                                                                placeholder="First Name">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                        <div class="form-group sin-up-from-group">
+                                                                            <label>Middle Name
+                                                                                <small></small>
+                                                                            </label>
+                                                                            <input class="form-control"
+                                                                                name="middleName" id="middleName"
+                                                                                type="text" placeholder="Middle Name">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                        <div class="form-group sin-up-from-group">
+                                                                            <label>Last Name
+                                                                                <small>*</small>
+                                                                            </label>
+                                                                            <input class="form-control" name="lastName"
+                                                                                id="lastName" type="text"
+                                                                                placeholder="Last Name" required>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class=" col-lg-4 col-md-6 col-sm-12">
+                                                                        <div class="form-group sin-up-from-group">
+                                                                            <label>Password
+                                                                                <small>*</small>
+                                                                            </label>
+                                                                            <input type="password" name="password"
+                                                                                id="password" class="form-control"
+                                                                                data-provide="typeahead"
+                                                                                placeholder="Select a strong password">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class=" col-lg-4 col-md-6 col-sm-12">
+                                                                        <div class="form-group sin-up-from-group">
+                                                                            <label>Confirm Password
+                                                                                <small>*</small>
+                                                                            </label>
+                                                                            <input type="password"
+                                                                                name="confirm_password"
+                                                                                class="form-control"
+                                                                                data-provide="typeahead"
+                                                                                placeholder="Select a strong password">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                        <div class="form-group sin-up-from-group">
+                                                                            <label>Mobile
+                                                                                <small>*</small>
+                                                                            </label>
+                                                                            <input type="number" id="phone" name="phone"
+                                                                                class="form-control"
+                                                                                data-provide="typeahead"
+                                                                                placeholder="e.g: 01xxxxxxxxx" required
+                                                                                minlength="11">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="account">
+
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <h5 class="info-text"></h5>
+                                                            </div>
+                                                            <div class="col-sm-10 col-sm-offset-1">
+                                                                <div class="form-group col-md-6">
+                                                                    <label>Academic Session *</label>
+                                                                    <select class="form-control" name="session"
+                                                                        id="session">
+                                                                        <option value="">Select Option</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label>Faculty *</label>
+                                                                    <select class="form-control" name="faculty"
+                                                                        id="faculty">
+                                                                        <option value="">Select Option</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label>Graduation Year *</label>
+                                                                    <select class="form-control" name="grad_year"
+                                                                        id="grad_year">
+                                                                        <option value="">Select Option</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label>Hall of Residence *</label>
+                                                                    <select class="form-control" name="hall" id="hall">
+                                                                        <option value="">Select Option</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label>Registration No *</label>
+                                                                    <input type="text" id="regNo" required minlength="3"
+                                                                        name="regNo" class="form-control"
+                                                                        data-provide="typeahead"
+                                                                        placeholder="Put your registration number">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="address">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <h5 class="info-text"></h5>
+                                                            </div>
+                                                            <div class="col-sm-5 col-sm-offset-1">
+                                                                <div class="form-group">
+                                                                    <label>Occupation</label><br>
+                                                                    <select class="form-control" name="profession"
+                                                                        aria-invalid="false">
+                                                                        <option value="Student">Student</option>
+                                                                        <option value="Housewife">Housewife</option>
+                                                                        <option value="Government service">Government
+                                                                            service</option>
+                                                                        <option value="Private service">Private service
+                                                                        </option>
+                                                                        <option value="Business">Business</option>
+                                                                        <option value="Garment worker">Garment worker
+                                                                        </option>
+                                                                        <option value="Teacher">Teacher</option>
+                                                                        <option value="Doctor">Doctor</option>
+                                                                        <option value="Engineer">Engineer</option>
+                                                                        <option value="Lawyer">Lawyer</option>
+                                                                        <option value="Army/Navy/Air">Army/Navy/Air
+                                                                        </option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-5">
+                                                                <div class="form-group">
+                                                                    <label>Company Name</label>
+                                                                    <input type="text" name="organization"
+                                                                        class="form-control" placeholder="Organization">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-5 col-sm-offset-1">
+                                                                <div class="form-group">
+                                                                    <label>Designation</label>
+                                                                    <input type="text" name="designation"
+                                                                        class="form-control" placeholder="Designation">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-5">
+                                                                <div class="form-group">
+                                                                    <label>Company Address</label>
+                                                                    <input type="text" name="address"
+                                                                        class="form-control" placeholder="Address">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wizard-footer mt-4">
+                                                    <div class="float-right">
+                                                        <input type="button" class="btn btn-next btn-fill btn-wd"
+                                                            name="next" value="Next">
+                                                        <input type="submit" class="btn btn-finish btn-fill btn-wd"
+                                                            name="finish" value="Register" style="display: none;">
+                                                    </div>
+
+                                                    <div class="float-left">
+                                                        <input type="button"
+                                                            class="btn btn-previous btn-default btn-wd disabled"
+                                                            name="previous" value="Previous">
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </form>
                                         </div>
-                                    </div>
+                                    </div> <!-- wizard container -->
                                 </div>
                             </div>
                         </div>
                     </section>
+
+
 
                 </div>
             </div>
@@ -290,6 +531,7 @@
 
 
             <!-- Here is Footer part Start -->
+
 
 
 
