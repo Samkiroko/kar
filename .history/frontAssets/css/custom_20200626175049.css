@@ -453,10 +453,10 @@ common css end
     line-height: 1.7;
 }
 .timer-cell-value{
-    font-size: 42px;
+    font-size: 30px;
 }
 .timer-cell-unit{
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 15px !important;
 }
 .join-now{
